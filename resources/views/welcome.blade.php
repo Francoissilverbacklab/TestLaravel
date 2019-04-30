@@ -1,17 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-</head>
-<body>
+@extends('layout')
 
-    <h1>Here we go!</h1>
 
-    <p>
-        
-        <a href="/contact">Contact</a> us to learn more.
+@section('content')
 
-    </p>
+	<h1>My {{ $foo }} Website!</h1>
 
-</body>
-</html>
+
+@endsection
